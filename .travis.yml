@@ -1,0 +1,14 @@
+sudo: required
+language: ruby
+
+services:
+  - docker
+
+before_install:
+  - docker build -t hitian/aria2 -f Dockerfile.amd64 .
+
+deploy:
+  provider: script
+  script: bash docker_push.sh
+  on:
+    branch: master
