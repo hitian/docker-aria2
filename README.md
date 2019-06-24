@@ -3,6 +3,7 @@
 * [aria2](https://aria2.github.io)
 * [yaaw](https://github.com/binux/yaaw) 
 
+[![CircleCI](https://circleci.com/gh/hitian/docker-aria2.svg?style=svg)](https://circleci.com/gh/hitian/docker-aria2)
 
 ### Build
 
