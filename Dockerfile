@@ -1,7 +1,5 @@
-FROM arm32v6/alpine:latest
+FROM alpine:latest
 
-# RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories && \
-#     export http_proxy=http://192.168.5.15:8080
 RUN apk add --no-cache git aria2 darkhttpd && \
     mkdir /conf && mkdir /app && mkdir /downloads && \
     git clone https://github.com/binux/yaaw.git /app

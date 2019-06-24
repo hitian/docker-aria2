@@ -5,6 +5,6 @@ jobs:
     machine: true
     steps:
       - checkout
-      - run: docker build -f Dockerfile.amd64 -t "hitian/aria2:amd64" .
+      - run: docker build -t "hitian/aria2:amd64" .
       - run: docker login -u $DOCKER_USER -p $DOCKER_PASS
       - run: docker push hitian/aria2:amd64
