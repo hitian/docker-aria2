@@ -1,4 +1,4 @@
-# aria2 with yaaw for arm32v6 devices
+# aria2 with yaaw 
 
 * [aria2](https://aria2.github.io)
 * [yaaw](https://github.com/binux/yaaw) 
